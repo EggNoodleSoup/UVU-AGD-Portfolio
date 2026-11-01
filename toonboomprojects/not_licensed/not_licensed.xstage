@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project  source="Harmony Premium (HarmonyPremium.exe) version 27.0.0 build 25340 2026-06-18 11:38:26" version="2700" build="25340" date="Mon Oct 26 17:24:23 2026" timeMsec="1793057063590" username="kupka" realUsername="kupka" creator="harmony">
+<project  source="Harmony Premium (HarmonyPremium.exe) version 27.0.0 build 25340 2026-06-18 11:38:26" version="2700" build="25340" date="Thu Oct 29 22:15:33 2026" timeMsec="1793333733107" username="kupka" realUsername="kupka" creator="harmony">
  <elements>
   <element id="3" elementName="skch" elementFolder="skch.3" pixmapFormat="2" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -62,6 +62,10 @@
     <dwg name="23"/>
     <dwg name="24"/>
     <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
    </drawings>
   </element>
   <element id="7" elementName="bg" elementFolder="bg.7" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -99,6 +103,7 @@
     <dwg name="23"/>
     <dwg name="24"/>
     <dwg name="3"/>
+    <dwg name="6"/>
    </drawings>
   </element>
  </elements>
@@ -121,15 +126,15 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0d53bad7f7d67df7" nbframes="134" startFrame="1" stopFrame="134">
+  <scene name="Top" id="0d53bad7f7d67df7" nbframes="152" startFrame="1" stopFrame="152">
    <columns>
     <column type="3" name="ATV-0DD1532EBA6BD7A7F7D680F7" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
     <column type="0" name="ATV-0DF2530DBA63D735F7D680FF" display="false" displayOrder="0" width="100" anonymous="true" id="3">
-     <elementSeq exposures="55-109" val="14" id="3"/>
-     <elementSeq exposures="110-134" val="13" id="3"/>
+     <elementSeq exposures="55-126" val="14" id="3"/>
+     <elementSeq exposures="127-162" val="13" id="3"/>
     </column>
     <column type="3" name="ATV-0D7F5380BADAD7F8F7D680F9" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
@@ -151,7 +156,7 @@
      <path3D useVeloX="true" useVeloY="true" useVeloZ="true" constantZ="false">
       <points/>
      </path3D>
-     <velocity type="3" name="ATV-0D4E56B1DD841764507015C8" displayOrder="0" width="100" anonymous="true">
+     <velocity type="3" name="ATV-0D80577F8E6E8CB24D4015A5" displayOrder="0" width="100" anonymous="true">
       <step val="1" start="1" stop="1"/>
       <noFrames/>
      </velocity>
@@ -168,35 +173,38 @@
      </points>
     </column>
     <column type="0" name="ATV-0D75538ABB6A951C88A05C72" displayOrder="0" width="100" anonymous="true" id="5">
-     <elementSeq exposures="55-65" val="8" id="5"/>
-     <elementSeq exposures="66-67" val="12" id="5"/>
-     <elementSeq exposures="68-69" val="10" id="5"/>
-     <elementSeq exposures="70-71" val="18" id="5"/>
-     <elementSeq exposures="72-73" val="14" id="5"/>
-     <elementSeq exposures="74-75" val="15" id="5"/>
-     <elementSeq exposures="76-77" val="16" id="5"/>
-     <elementSeq exposures="78-109" val="3" id="5"/>
-     <elementSeq exposures="110-134" val="4" id="5"/>
+     <elementSeq exposures="55-70" val="8" id="5"/>
+     <elementSeq exposures="71-72" val="12" id="5"/>
+     <elementSeq exposures="73-74" val="10" id="5"/>
+     <elementSeq exposures="75-76" val="18" id="5"/>
+     <elementSeq exposures="77-78" val="14" id="5"/>
+     <elementSeq exposures="79-80" val="15" id="5"/>
+     <elementSeq exposures="81-82" val="16" id="5"/>
+     <elementSeq exposures="83-126" val="3" id="5"/>
+     <elementSeq exposures="127-162" val="4" id="5"/>
     </column>
     <column type="0" name="ATV-0D1953E6BB0295D088A0DC93" displayOrder="0" width="100" anonymous="true" id="6">
-     <elementSeq exposures="110-134" val="2" id="6"/>
+     <elementSeq exposures="48" val="28" id="6"/>
+     <elementSeq exposures="49" val="29" id="6"/>
+     <elementSeq exposures="50-63" val="26" id="6"/>
+     <elementSeq exposures="127-162" val="2" id="6"/>
     </column>
     <column type="0" name="ATV-0D0B53F4BB82955888A0DCCE" displayOrder="0" width="100" anonymous="true" id="7">
      <elementSeq exposures="1-54" val="1" id="7"/>
-     <elementSeq exposures="110-134" val="2" id="7"/>
+     <elementSeq exposures="127-162" val="2" id="7"/>
     </column>
-    <column type="0" name="ATV-0DCC5433F803224FE4D1242E" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-0DCC5433F803224FE4D1242E" display="false" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1-54" val="1" id="9"/>
-     <elementSeq exposures="55-109" val="2" id="9"/>
-     <elementSeq exposures="110-134" val="3" id="9"/>
+     <elementSeq exposures="55-126" val="2" id="9"/>
+     <elementSeq exposures="127-151" val="3" id="9"/>
     </column>
     <column type="3" name="ATV-0D9F5460FA7E19E0FB87EFFB" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="55" yLocal="-1.3333301325656706" y="-1.3333301325656706" lhx="-12.539999999999999" lx="42.460000000000001"/>
-      <pt constSeg="false" x="78" yLocal="-0.28958263816659713" y="-0.28958263816659713" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="0.12708302826017887" y="0.12708302826017887" lhx="-4.9500000000000028" lx="88.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="-1.3333301325656706" y="-1.3333301325656706"/>
+      <pt constSeg="false" x="83" yLocal="-0.28958263816659713" y="-0.28958263816659713" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="98" yLocal="0.12708302826017887" y="0.12708302826017887" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="-0.13333301325656155" y="-0.13333301325656155" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -204,9 +212,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="55" yLocal="-1.4222188080700446" y="-1.4222188080700446" lhx="-12.539999999999999" lx="42.460000000000001"/>
-      <pt constSeg="false" x="93" yLocal="-0.51666542636919455" y="-0.51666542636919455" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="78" yLocal="1.0805529616000895" y="1.0805529616000895" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="-1.4222188080700446" y="-1.4222188080700446"/>
+      <pt constSeg="false" x="98" yLocal="-0.51666542636919455" y="-0.51666542636919455" lhx="-4.9500000000000028" lx="93.049999999999997"/>
+      <pt constSeg="false" x="83" yLocal="1.0805529616000895" y="1.0805529616000895" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="-4.2666564242101259" y="-4.2666564242101259" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -214,9 +222,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="78" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="0" y="0" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="55" yLocal="0" y="0" lhx="-12.539999999999999" lx="42.460000000000001"/>
+      <pt constSeg="false" x="83" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="0" y="0"/>
+      <pt constSeg="false" x="98" yLocal="0" y="0" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="0" y="0" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -224,9 +232,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="78" yLocal="1" y="1" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="1" y="1" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="55" yLocal="1" y="1" lhx="-12.539999999999999" lx="42.460000000000001"/>
+      <pt constSeg="false" x="83" yLocal="1" y="1" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="1" y="1"/>
+      <pt constSeg="false" x="98" yLocal="1" y="1" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="1" y="1" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -234,9 +242,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="78" yLocal="1" y="1" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="1" y="1" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="55" yLocal="1" y="1" lhx="-12.539999999999999" lx="42.460000000000001"/>
+      <pt constSeg="false" x="83" yLocal="1" y="1" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="1" y="1"/>
+      <pt constSeg="false" x="98" yLocal="1" y="1" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="1" y="1" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -244,9 +252,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="78" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="0" y="0" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="55" yLocal="0" y="0" lhx="-12.539999999999999" lx="42.460000000000001"/>
+      <pt constSeg="false" x="83" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="0" y="0"/>
+      <pt constSeg="false" x="98" yLocal="0" y="0" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="0" y="0" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -254,9 +262,9 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="78" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="82.950000000000003" lx="73.049999999999997"/>
-      <pt constSeg="false" x="93" yLocal="0" y="0" lhx="-4.9500000000000028" lx="88.049999999999997"/>
-      <pt constSeg="false" x="55" yLocal="0" y="0" lhx="-12.539999999999999" lx="42.460000000000001"/>
+      <pt constSeg="false" x="83" yLocal="0" y="0" rhx="4.9500000000000028" lhx="-4.9500000000000028" rx="87.950000000000003" lx="78.049999999999997"/>
+      <pt constSeg="false" x="53" yLocal="0" y="0"/>
+      <pt constSeg="false" x="98" yLocal="0" y="0" lhx="-4.9500000000000028" lx="93.049999999999997"/>
       <pt constSeg="true" x="63" yLocal="0" y="0" lhx="-3.6300000000000026" lx="59.369999999999997"/>
      </points>
     </column>
@@ -276,6 +284,14 @@
      <elementSeq exposures="37-38" val="23" id="10"/>
      <elementSeq exposures="39-40" val="24" id="10"/>
      <elementSeq exposures="41-54" val="3" id="10"/>
+     <heldSeq exposures="125-126"/>
+    </column>
+    <column type="3" name="ATV-0D7D57828E318CD14D42271B" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="63" yLocal="0" y="0" rhx="29.357122217752419" rhy="-0.44863729451943435" lhx="-29.357122217752419" lhy="0.44863729451943435" rx="92.357122217752419" ry="-0.44863729451943435" lx="33.642877782247581" ly="0.44863729451943435" continuity="smooth"/>
+      <pt constSeg="false" x="55,64" yLocal="100" y="100"/>
+     </points>
     </column>
    </columns>
    <options>
@@ -375,7 +391,7 @@
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
+       <opacity val="100" defaultValue="100" col="ATV-0D7D57828E318CD14D42271B"/>
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
@@ -402,7 +418,6 @@
      </module>
      <module type="READ" name="rough" pos="-306,-206,10" publishUnderTab="rough">
       <options>
-       <showTimelineThumb val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -517,6 +532,7 @@
      </module>
      <module type="READ" name="notes" pos="-597,-206,6" publishUnderTab="notes">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -907,10 +923,14 @@
         <filterResY val="540"/>
        </enabling>
        <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+       <scriptEditor>
+        <val>
+         <![CDATA[// Following code will be called at the end of Write Node rendering
 // operations to create a movie file from rendered images.
 
-// ..."/>
+// ...]]>
+        </val>
+       </scriptEditor>
        <colorSpace val=""/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
@@ -1040,9 +1060,9 @@
        <depth val="0"/>
        <offsetZ val="-12" defaultValue="-12"/>
        <color>
-        <red val="255"/>
-        <green val="255"/>
-        <blue val="255"/>
+        <red val="209"/>
+        <green val="209"/>
+        <blue val="209"/>
         <alpha val="255"/>
         <preferredUi val="separate"/>
        </color>
@@ -1279,7 +1299,7 @@
  </timeline>
  <metas>
   <meta type="checksumValidation" name="checksumValidation" creator="Storyboard Pro" version="1.0">
-   <value data="6D000000000000000303F1E985A861612B0EC1A3096DAE2E2D6070865C859690EE51040D4F00F725BE920DA8411B8549B8388E094619E84C7AACDA249DFFB7C0DC4A5118C50BD7249DCDE631D0B3F8740A578523AEC632FCF5FB8A6633E782B6DC1C4C801D85C608EE6C7216A1D8E61B288BEFEE685B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A55784D6A45324D4445304E544D7A5768634E4D7A55784D6A45314D4445304E544D7A576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E44417A4D7A67775844414E42676B71686B6947397730424151454641414E4C41444249416B45416C632F470A7058466F495A39744A6544534D4531756C62596157684172704F36396444355857447266506178794A7A58686F72776B4F6D50777673467951505A4D6D72476E0A6E6435576E69326F2F48716C366B614E72774944415141424D413047435371475349623344514542425155414134474241444172324F70694E2B4C6A455265560A4F2F434D65702B526657764337346454496966794B78574777387263757A5541624251796A5676574531623263784E30415A3368634F704B716E49666164464D0A424B58736575673043722B7A53366F43722F4B53715A65317A54666438443967494D367474526572714B584D6232704C75694B614D35754C514B6777344238690A496C555372374A6A48437749764E6D676D3831345A472B306A726F370A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A400000000EF4D7D257C9144204658C8F61F03A7B0FB00D37D47F97FAC42AB7EC8FA45A719DA9C1BCBF203B37F7D4AC02CC377F263AD20FCC34A3F332FA6D52A8D6B8E0A5"/>
+   <value data="6D00000000000000030371690528E1E1AB8E412389ED2EAEADE0F006DC0516106ED1848DCF8077A53E128D28C19B05C938B80E89C69968CCFA2C5AA41D7F37405CCAD198458B57A41D4D66B1503378F48AD705A32E46B27C757B0AE6B36702365C9CCC009D0546886EECF2962158669BA80B6F6EE85B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A55784D6A45324D4445304E544D7A5768634E4D7A55784D6A45314D4445304E544D7A576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E44417A4D7A67775844414E42676B71686B6947397730424151454641414E4C41444249416B45416C632F470A7058466F495A39744A6544534D4531756C62596157684172704F36396444355857447266506178794A7A58686F72776B4F6D50777673467951505A4D6D72476E0A6E6435576E69326F2F48716C366B614E72774944415141424D413047435371475349623344514542425155414134474241444172324F70694E2B4C6A455265560A4F2F434D65702B526657764337346454496966794B78574777387263757A5541624251796A5676574531623263784E30415A3368634F704B716E49666164464D0A424B58736575673043722B7A53366F43722F4B53715A65317A54666438443967494D367474526572714B584D6232704C75694B614D35754C514B6777344238690A496C555372374A6A48437749764E6D676D3831345A472B306A726F370A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A400000003EA7F3DE9B9A8940680207EC6089A64766C7925EA324ABF17CD72E08B0F344AB272D5E2309279E9D8329F57847D12176F67E04DD040062D6D9514EB9DA3A24C2"/>
   </meta>
  </metas>
 </project>
